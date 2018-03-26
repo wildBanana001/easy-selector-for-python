@@ -76,8 +76,11 @@ document.onkeydown=function(event){
                                 else {
                                     tagpath=tag.prop("tagName")+' '+tagpath;
                                 } 
+                                
                             }
                             console.log(tagpath);
+                            $(tagpath).css({"color":"red"});    
+                         
                         }
                     })
                }            
